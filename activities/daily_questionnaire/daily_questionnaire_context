@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "daily_questionnaire": "https://raw.githubusercontent.com/hotavocado/GDQ-MK-XX/master/activities/daily_questionnaire/items/",
+        "bedtime": {
+            "@id": "daily_questionnaire:bedtime",
+            "@type": "@id"
+        },
+        "bed_stay": {
+            "@id": "daily_questionnaire:bed_stay",
+            "@type": "@id"
+        },
+        "wake_night": {
+            "@id": "daily_questionnaire:wake_night",
+            "@type": "@id"
+        },
+        "waketime": {
+            "@id": "daily_questionnaire:waketime",
+            "@type": "@id"
+        },
+        "wake_play_quietly": {
+            "@id": "daily_questionnaire:wake_play_quietly",
+            "@type": "@id"
+        },
+        "thank_you": {
+            "@id": "daily_questionnaire:thank_you",
+            "@type": "@id"
+        }
+    }
+}
