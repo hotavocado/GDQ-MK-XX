@@ -1,7 +1,7 @@
 Variable / Field Name,Section Header,Form Name,Form Display Name,Form Note,headerImage,headerImageSize,Field Type,multipleChoice,Allow,Field Label,"Choices, Calculations, OR Slider Labels",minVal,maxVal,Branching Logic (Show field only if...)
 bedtime,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your child's sleep,,,time,,,What time did your child get in bed?,,,,
 bed_stay,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your child's sleep,,,radio,,autoAdvance,Did they stay in bed through the night?,"1, Yes | 0, No | 2, Not sure",,,
-wake_night,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your child's sleep,,,slider,,,How many times did they get up in the night?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",times,times or more,[bed_stay] = 1
+wake_night,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your child's sleep,,,slider,,,How many times did they get up in the night?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",times,times or more,[bed_stay] = 0
 waketime,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your child's sleep,,,time,,,What time did your child wake-up?,,,,
 wake_play_quietly,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your child's sleep,,,radio,,autoAdvance,"When it was time to wake-up in the morning, did they play on their own quietly until others were awake?","1, Yes | 0, No | 2, Not sure",,,
 thank_you,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your child's sleep,,,markdown-message,,,"Thanks for completing your daily questionnaire on MindLogger, see you again tomorrow!",,,,

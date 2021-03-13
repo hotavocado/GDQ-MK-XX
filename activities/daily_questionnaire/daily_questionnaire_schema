@@ -25,7 +25,7 @@
             {
                 "variableName": "wake_night",
                 "isAbout": "wake_night",
-                "isVis": "bed_stay == 1"
+                "isVis": "bed_stay == 0"
             },
             {
                 "variableName": "waketime",
