@@ -7,14 +7,9 @@
     "ui": {
         "inputType": "slider"
     },
-    "question": "If they got up, how many times?",
+    "question": "How many times did they get up in the night?",
     "responseOptions": {
         "choices": [
-            {
-                "schema:value": 0,
-                "schema:name": "0",
-                "@type": "schema:option"
-            },
             {
                 "schema:value": 1,
                 "schema:name": "1",
